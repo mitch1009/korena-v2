@@ -1,0 +1,11 @@
+{
+  "common": {
+    "loading": "Kukuyitanila...",
+    "error": "Chachilema",
+    "success": "Chabwino!"
+  },
+  "navigation": {
+    "menu": "Menyu",
+    "services": "Ntchito"
+  }
+}

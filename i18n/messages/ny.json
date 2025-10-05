@@ -1,0 +1,190 @@
+{
+  "common": {
+    "loading": "Kukuyitanira...",
+    "error": "Pavuto",
+    "success": "Zabwino!",
+    "cancel": "Leka",
+    "continue": "Pitiliza",
+    "submit": "Tumiza",
+    "close": "Tseka",
+    "save": "Sunga",
+    "edit": "Kusintha",
+    "delete": "Chotsa",
+    "view": "Ona",
+    "download": "Tsitsa",
+    "upload": "Kweza",
+    "search": "Fufuza",
+    "filter": "Sieva",
+    "sort": "Konzeka",
+    "current": "Tsopano",
+    "next": "Chotsatira",
+    "previous": "Choyamba",
+    "home": "Nyumba",
+    "back": "Kubwerera"
+  },
+  "navigation": {
+    "menu": "Menyu",
+    "services": "Ntchito",
+    "solutions": "Mayankho",
+    "industries": "Mafakitole",
+    "holo-school": "Holo-School",
+    "case-studies": "Zitsanzo",
+    "tenders": "Ma Tender",
+    "about": "Za Ife",
+    "contact": "Lumbirana",
+    "get-started": "Yamba",
+    "cloud-modern-work": "Cloud ndi Ntchito Zamakono",
+    "data-ai": "Data ndi AI",
+    "security-compliance": "Chitetezo ndi Kutsatira Malamulo",
+    "power-platform": "Power Platform",
+    "government-portals": "Ma Portal a Boma",
+    "managed-services": "Ntchito Zoyang'aniridwa",
+    "govcloud-starter": "GovCloud Choyamba",
+    "smart-data-platform": "Nsanja ya Data Yanzeru",
+    "secure-identity": "Chizindikiro Chotetezeka",
+    "gov-payments": "Malipiro a Boma",
+    "government": "Boma",
+    "healthcare": "Zachipatala",
+    "education": "Maphunziro",
+    "finance": "Zachuma",
+    "fintech": "Tekinoloje ya Zachuma"
+  },
+  "hero": {
+    "title": "Kusintha kwa Digito ku Malawi wa Masiku Ano",
+    "subtitle": "Kulimbikitsa boma, mabizinesi, ndi anthu ammudzi ndi mayankho a cloud apamwamba, luntha la AI, ndi ntchito za digito zatsopano.",
+    "cta-primary": "Onani Mayankho Athu",
+    "cta-secondary": "Onani Zitsanzo",
+    "stats": {
+      "clients": "Makasitomala a Boma",
+      "projects": "Mapulojekiti Operekedwa",
+      "uptime": "Nthawi ya Ntchito",
+      "coverage": "Kufalikira kwa Dziko"
+    }
+  },
+  "services": {
+    "title": "Ntchito Zathu",
+    "subtitle": "Mayankho athunthu a digito opangidwa kwa zosowa za Malawi",
+    "cloud-modern-work": {
+      "title": "Cloud ndi Ntchito Zamakono",
+      "description": "Kusamutsa ku Azure, kukhazikitsa Microsoft 365, ndi mayankho a malo ogwira ntchito amakono",
+      "features": ["Kusamutsa ku Azure Cloud", "Kukhazikitsa Microsoft 365", "Teams ndi Kugwirizana", "Mayankho a Ntchito Yosakanikirana"]
+    },
+    "data-ai": {
+      "title": "Data ndi AI",
+      "description": "Kusanthula kwa Power BI, ulamuliro wa data, ndi luntha la AI",
+      "features": ["Ma Dashboard a Power BI", "Ulamuliro wa Data", "Kusanthula kwa AI", "Luntha la Kulosera"]
+    },
+    "security-compliance": {
+      "title": "Chitetezo ndi Kutsatira Malamulo", 
+      "description": "Microsoft Defender, malamulo otsatira, ndi chitetezo cha cyber",
+      "features": ["Microsoft Defender", "Malamulo Otsatira", "Kufufuza Chitetezo", "Kuyankha Mavuto"]
+    },
+    "power-platform": {
+      "title": "Power Platform",
+      "description": "Mapulogalamu osavuta kupanga, makina, ndi mayankho apadera",
+      "features": ["Kupanga Power Apps", "Power Automate", "Copilot Studio", "Zolumikizira Zapadera"]
+    },
+    "government-portals": {
+      "title": "Ma Portal a Boma",
+      "description": "Ntchito za nzika, nsanja za e-boma, ndi kusintha kwa digito",
+      "features": ["Ma Portal a Nzika", "Ntchito za E-Government", "Chizindikiro cha Digito", "Kuphatikiza Ntchito"]
+    },
+    "managed-services": {
+      "title": "Ntchito Zoyang'aniridwa",
+      "description": "Chithandizo cha 24/7, kuyang'anira, ndi zida za cloud zoyang'aniridwa",
+      "features": ["Chithandizo cha 24/7", "Kuyang'anira Cloud", "Kusungira ndi Kubwezeretsa", "Kupangitsa kuti Zizigwira ntchito Bwino"]
+    }
+  },
+  "contact": {
+    "title": "Lumikizani nafe",
+    "subtitle": "Mwakonzeka kusintha mapangidwe anu a digito? Tiyeni tikambirane zofunikira zanu.",
+    "form": {
+      "name": "Dzina Lonse",
+      "name-placeholder": "Lembani dzina lanu lonse",
+      "email": "Adilesi ya Email",
+      "email-placeholder": "Lembani adilesi yanu ya email",
+      "phone": "Nambala ya Foni",
+      "phone-placeholder": "Lembani nambala yanu ya foni (zosakhala zachikakamiza)",
+      "organization": "Bungwe",
+      "organization-placeholder": "Lembani dzina la bungwe lanu (zosakhala zachikakamiza)",
+      "interest": "Gawo Lomwe Mukufuna",
+      "interest-placeholder": "Sankhani gawo lomwe mukufuna",
+      "message": "Uthenga",
+      "message-placeholder": "Tiwuzeni zomwe mukufuna ndipo mmene tingakuthandizireni",
+      "consent": "Ndikuvomera malamulo a chinsinsi ndi malamulo ogwirira ntchito",
+      "submit": "Tumiza Uthenga",
+      "success": "Zikomo! Tidzakuyankha m'masana 24.",
+      "error": "Pepani, panali vuto potumiza uthenga wanu. Chonde yesaninso."
+    }
+  },
+  "footer": {
+    "description": "Mgwirizano wamkulu wa kusintha kwa digito ku Malawi, kupereka mayankho a cloud atsopano ndi ntchito za AI kwa makasitomala a boma ndi mabizinesi.",
+    "address": "Lilongwe, Malawi",
+    "company": "Kampani",
+    "legal": "Zamalamulo",
+    "trusted-partners": "Ogwirizana Wodalirika",
+    "partners-description": "Ogwirizana ovomerezeka opereka mayankho apamwamba kwambiri",
+    "rights-reserved": "Ufulu wonse wasunga",
+    "made-in-malawi": "Wopangidwa mu Malawi mwanyada",
+    "privacy-policy": "Ndondomeko ya Chinsinsi",
+    "terms-of-service": "Malamulo a Ntchito",
+    "data-protection": "Chitetezo cha Data",
+    "cookies": "Ndondomeko ya Cookies"
+  },
+  "holo-school": {
+    "title": "Pulojekiti ya Holo-School",
+    "subtitle": "Njira yatsopano ya kuperekedwa maphunziro a holographic ku miyendo ya Malawi",
+    "hero": {
+      "title": "Kubweretsa Maphunziro Apamwamba ku Mudzi Uliwonse",
+      "description": "Kugwiritsa ntchito tekinoloje ya holographic, ntchito za cloud za Azure, ndi zida za kuwulutsa za MACRA kuti apereke zokumana nazo zamaphunziro ku madera akutali a Malawi."
+    },
+    "sections": {
+      "why": {
+        "title": "Chifukwa chiyani Holo-School?",
+        "points": [
+          "Kuthana ndi kusalingana kwa maphunziro m'madera akumidzi",
+          "Kupereka mwayi wopeza aphunzitsi okwanira kudzera pa tekinoloje",
+          "Njira yolimba ya kuperekedwa kudzera pa tekinoloje ya RF",
+          "Yankho lomwe lingafalitsidwe ku dziko lonse"
+        ]
+      },
+      "how": {
+        "title": "Momwe Zimagwirira Ntchito",
+        "steps": [
+          "Kupanga zinthu mu studio ya Azure Media Services",
+          "Kuwulutsa pa nthawi yeniyeni kudzera pa Microsoft Teams",
+          "Kuwulutsa kwa MACRA RF ku ma screen a hologram ammudzi",
+          "Mawu ogwirizana kudzera pa ma headset opanda zingwe",
+          "Kulumikizana kwa IP ngati kulipo"
+        ]
+      },
+      "pilot": {
+        "title": "Pulogalamu ya Mayeso",
+        "description": "Pulogalamu ya mayeso pamalo atatu kuonetsa kuti zidzatheke ndikuyeza zotsatira",
+        "sites": "Malo a Mayeso",
+        "kpis": "Ziphunzitso Zazikulu za Kuchita Bwino",
+        "timeline": "Nthawi ya Kukhazikitsa"
+      },
+      "tech": {
+        "title": "Zida za Tekinoloje",
+        "azure": "Azure Media Services pakuperekedwa kwazinthu ndi CDN",
+        "teams": "Microsoft Teams pakumana ndi anthu pa nthawi yeniyeni",
+        "macra": "Zida za MACRA RF pakuwulutsa",
+        "apps": "Power Apps pakuonera kopezeka ndi ndemanga"
+      }
+    },
+    "cta": {
+      "title": "Pemphan Kalata ya Mayeso",
+      "description": "Pezani zambiri za kukhazikitsa pulogalamu ya mayeso ya Holo-School",
+      "button": "Tsitsani Kalata"
+    }
+  },
+  "assistant": {
+    "title": "Wothandiza wa AI",
+    "placeholder": "Funitsani chilichonse cha ntchito zathu, mayankho, kapena mmene tingakuthandizirentu...",
+    "send": "Tumiza",
+    "typing": "AI ikulemba...",
+    "error": "Pepani, ndili ndi vuto tsopano. Chonde yesaninso.",
+    "welcome": "Moni! Ndine wothandiza wanu wa Korena Digital Solutions. Kodi ndingathandize bwanji lero?"
+  }
+}

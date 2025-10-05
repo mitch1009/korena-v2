@@ -1,0 +1,37 @@
+{
+  "common": {
+    "loading": "Kukuyitanila...",
+    "error": "Chachilema",
+    "success": "Chabwino!",
+    "cancel": "Leka",
+    "continue": "Pitilizya",
+    "submit": "Tumizya",
+    "close": "Tseka",
+    "save": "Sunga",
+    "edit": "Kusintha",
+    "delete": "Chotsa",
+    "view": "Ona",
+    "download": "Tsitsa",
+    "upload": "Kweza",
+    "search": "Fufuza",
+    "filter": "Sieva",
+    "sort": "Konzeka",
+    "current": "Tsopano",
+    "next": "Chotsatila",
+    "previous": "Chakoyamba",
+    "home": "Nyumba",
+    "back": "Kubwelela"
+  },
+  "navigation": {
+    "menu": "Menyu",
+    "services": "Ntchito",
+    "solutions": "Mayankho",
+    "industries": "Mafakitole",
+    "holo-school": "Holo-School",
+    "case-studies": "Zitsanzo",
+    "tenders": "Ma Tender",
+    "about": "Za Ife", 
+    "contact": "Lumilizana",
+    "get-started": "Yamba"
+  }
+}

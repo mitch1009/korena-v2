@@ -1,0 +1,190 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "submit": "Submit",
+    "close": "Close",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "current": "Current",
+    "next": "Next",
+    "previous": "Previous",
+    "home": "Home",
+    "back": "Back"
+  },
+  "navigation": {
+    "menu": "Menu",
+    "services": "Services",
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "holo-school": "Holo-School",
+    "case-studies": "Case Studies",
+    "tenders": "Tenders",
+    "about": "About Us",
+    "contact": "Contact",
+    "get-started": "Get Started",
+    "cloud-modern-work": "Cloud & Modern Work",
+    "data-ai": "Data & AI",
+    "security-compliance": "Security & Compliance",
+    "power-platform": "Power Platform",
+    "government-portals": "Government Portals",
+    "managed-services": "Managed Services",
+    "govcloud-starter": "GovCloud Starter",
+    "smart-data-platform": "Smart Data Platform",
+    "secure-identity": "Secure Identity",
+    "gov-payments": "Government Payments",
+    "government": "Government",
+    "healthcare": "Healthcare",
+    "education": "Education",
+    "finance": "Finance",
+    "fintech": "FinTech"
+  },
+  "hero": {
+    "title": "Digital Transformation for Modern Malawi",
+    "subtitle": "Empowering government, businesses, and communities with cutting-edge cloud solutions, AI-driven insights, and innovative digital services.",
+    "cta-primary": "Explore Our Solutions",
+    "cta-secondary": "View Case Studies",
+    "stats": {
+      "clients": "Government Clients",
+      "projects": "Projects Delivered",
+      "uptime": "Service Uptime",
+      "coverage": "National Coverage"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive digital solutions tailored for Malawi's unique needs",
+    "cloud-modern-work": {
+      "title": "Cloud & Modern Work",
+      "description": "Azure migration, Microsoft 365, and modern workplace solutions",
+      "features": ["Azure Cloud Migration", "Microsoft 365 Implementation", "Teams & Collaboration", "Hybrid Work Solutions"]
+    },
+    "data-ai": {
+      "title": "Data & AI",
+      "description": "Power BI analytics, data governance, and AI-powered insights",
+      "features": ["Power BI Dashboards", "Data Governance", "AI Analytics", "Predictive Insights"]
+    },
+    "security-compliance": {
+      "title": "Security & Compliance",
+      "description": "Microsoft Defender, compliance frameworks, and cybersecurity",
+      "features": ["Microsoft Defender", "Compliance Frameworks", "Security Audits", "Incident Response"]
+    },
+    "power-platform": {
+      "title": "Power Platform",
+      "description": "Low-code applications, automation, and custom solutions",
+      "features": ["Power Apps Development", "Power Automate", "Copilot Studio", "Custom Connectors"]
+    },
+    "government-portals": {
+      "title": "Government Portals",
+      "description": "Citizen services, e-governance platforms, and digital transformation",
+      "features": ["Citizen Portals", "E-Government Services", "Digital Identity", "Service Integration"]
+    },
+    "managed-services": {
+      "title": "Managed Services",
+      "description": "24/7 support, monitoring, and managed cloud infrastructure",
+      "features": ["24/7 Support", "Cloud Monitoring", "Backup & Recovery", "Performance Optimization"]
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to transform your digital infrastructure? Let's discuss your requirements.",
+    "form": {
+      "name": "Full Name",
+      "name-placeholder": "Enter your full name",
+      "email": "Email Address",
+      "email-placeholder": "Enter your email address",
+      "phone": "Phone Number",
+      "phone-placeholder": "Enter your phone number (optional)",
+      "organization": "Organization",
+      "organization-placeholder": "Enter your organization name (optional)",
+      "interest": "Area of Interest",
+      "interest-placeholder": "Select your area of interest",
+      "message": "Message",
+      "message-placeholder": "Tell us about your requirements and how we can help",
+      "consent": "I agree to the privacy policy and terms of service",
+      "submit": "Send Message",
+      "success": "Thank you! We'll get back to you within 24 hours.",
+      "error": "Sorry, there was an error sending your message. Please try again."
+    }
+  },
+  "footer": {
+    "description": "Leading digital transformation partner in Malawi, delivering innovative cloud solutions and AI-powered services for government and enterprise clients.",
+    "address": "Lilongwe, Malawi",
+    "company": "Company",
+    "legal": "Legal",
+    "trusted-partners": "Trusted Partners",
+    "partners-description": "Certified partners delivering world-class solutions",
+    "rights-reserved": "All rights reserved",
+    "made-in-malawi": "Proudly made in Malawi",
+    "privacy-policy": "Privacy Policy",
+    "terms-of-service": "Terms of Service",
+    "data-protection": "Data Protection",
+    "cookies": "Cookie Policy"
+  },
+  "holo-school": {
+    "title": "Holo-School Initiative",
+    "subtitle": "Revolutionary holographic education delivery for rural Malawi",
+    "hero": {
+      "title": "Bringing World-Class Education to Every Village",
+      "description": "Leveraging holographic technology, Azure cloud services, and MACRA's broadcast infrastructure to deliver immersive educational experiences to remote communities across Malawi."
+    },
+    "sections": {
+      "why": {
+        "title": "Why Holo-School?",
+        "points": [
+          "Bridge educational inequality in rural areas",
+          "Provide access to qualified teachers virtually",
+          "Resilient delivery via RF broadcast technology",
+          "Scalable solution for national deployment"
+        ]
+      },
+      "how": {
+        "title": "How It Works",
+        "steps": [
+          "Content creation in Azure Media Services studio",
+          "Live streaming via Microsoft Teams integration", 
+          "MACRA RF broadcast to community hologram screens",
+          "Synchronized audio via wireless headsets",
+          "Fallback IP connectivity where available"
+        ]
+      },
+      "pilot": {
+        "title": "Pilot Program",
+        "description": "Three-site pilot program to demonstrate feasibility and measure impact",
+        "sites": "Pilot Sites",
+        "kpis": "Key Performance Indicators",
+        "timeline": "Implementation Timeline"
+      },
+      "tech": {
+        "title": "Technology Stack",
+        "azure": "Azure Media Services for content delivery and CDN",
+        "teams": "Microsoft Teams for live interaction",
+        "macra": "MACRA RF infrastructure for broadcast",
+        "apps": "Power Apps for attendance and feedback collection"
+      }
+    },
+    "cta": {
+      "title": "Request Pilot Prospectus",
+      "description": "Get detailed information about the Holo-School pilot program implementation",
+      "button": "Download Prospectus"
+    }
+  },
+  "assistant": {
+    "title": "AI Assistant",
+    "placeholder": "Ask me anything about our services, solutions, or how we can help...",
+    "send": "Send",
+    "typing": "AI is typing...",
+    "error": "Sorry, I'm having trouble right now. Please try again.",
+    "welcome": "Hi! I'm your Korena Digital Solutions assistant. How can I help you today?"
+  }
+}

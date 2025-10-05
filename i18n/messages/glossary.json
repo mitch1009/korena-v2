@@ -1,0 +1,114 @@
+{
+  "brandTerms": {
+    "Korena Digital Solutions": {
+      "en": "Korena Digital Solutions",
+      "ny": "Korena Digital Solutions",
+      "tum": "Korena Digital Solutions",
+      "note": "Brand name - keep in English"
+    },
+    "Holo-School": {
+      "en": "Holo-School", 
+      "ny": "Holo-School",
+      "tum": "Holo-School",
+      "note": "Initiative name - keep in English"
+    },
+    "Microsoft": {
+      "en": "Microsoft",
+      "ny": "Microsoft", 
+      "tum": "Microsoft",
+      "note": "Company name - keep in English"
+    },
+    "Azure": {
+      "en": "Azure",
+      "ny": "Azure",
+      "tum": "Azure", 
+      "note": "Product name - keep in English"
+    },
+    "Power Platform": {
+      "en": "Power Platform",
+      "ny": "Power Platform",
+      "tum": "Power Platform",
+      "note": "Product name - keep in English"
+    }
+  },
+  "technicalTerms": {
+    "cloud": {
+      "en": "cloud",
+      "ny": "cloud/mtambo",
+      "tum": "cloud/mtambo",
+      "note": "Can use English term or local adaptation"
+    },
+    "digital": {
+      "en": "digital",
+      "ny": "ya digito",
+      "tum": "ya digital"
+    },
+    "data": {
+      "en": "data", 
+      "ny": "data/chidziwitso",
+      "tum": "data/chidziwitso"
+    },
+    "artificial intelligence": {
+      "en": "artificial intelligence",
+      "ny": "luntha la makina",
+      "tum": "chidziwitso cha makina"
+    },
+    "security": {
+      "en": "security",
+      "ny": "chitetezo", 
+      "tum": "chitetezo"
+    },
+    "portal": {
+      "en": "portal",
+      "ny": "khomo/portal",
+      "tum": "khomo/portal"
+    },
+    "application": {
+      "en": "application",
+      "ny": "pulogalamu",
+      "tum": "pulogalamu"
+    },
+    "infrastructure": {
+      "en": "infrastructure", 
+      "ny": "maziko",
+      "tum": "maziko"
+    },
+    "holographic": {
+      "en": "holographic",
+      "ny": "ya hologram",
+      "tum": "ya hologram"
+    },
+    "broadcast": {
+      "en": "broadcast",
+      "ny": "kuwulutsa",
+      "tum": "kuwulutsa"
+    }
+  },
+  "governmentTerms": {
+    "citizen": {
+      "en": "citizen",
+      "ny": "nzika",
+      "tum": "nzika"
+    },
+    "government": {
+      "en": "government", 
+      "ny": "boma",
+      "tum": "boma"
+    },
+    "public service": {
+      "en": "public service",
+      "ny": "ntchito za anthu onse",
+      "tum": "yilumikiro ya anthu onse"
+    },
+    "e-governance": {
+      "en": "e-governance",
+      "ny": "ulamuliro wa digito",
+      "tum": "ulamuliro wa digital"
+    },
+    "tender": {
+      "en": "tender",
+      "ny": "tender/kupempha",
+      "tum": "tender/kupempha"
+    }
+  }
+}

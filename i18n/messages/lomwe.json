@@ -1,0 +1,14 @@
+{
+  "common": {
+    "loading": "Kukuyitanila...",
+    "error": "Chachilema",
+    "success": "Chabwino!",
+    "cancel": "Leka",
+    "continue": "Pitilizya"
+  },
+  "navigation": {
+    "menu": "Menyu",
+    "services": "Ntchito",
+    "solutions": "Mayankho"
+  }
+}

@@ -1,63 +1,220 @@
-# Next.js Framework Starter
+# Korena Digital Solutions Website
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/next-starter-template)
+A production-ready marketing and venture studio website built with Next.js 15, running entirely on Cloudflare Workers with AI-powered features and comprehensive i18n support for Malawi's local languages.
 
-<!-- dash-content-start -->
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/korena-digital/website)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It's deployed on Cloudflare Workers as a [static website](https://developers.cloudflare.com/workers/static-assets/).
+## 🚀 Features
 
-This template uses [OpenNext](https://opennext.js.org/) via the [OpenNext Cloudflare adapter](https://opennext.js.org/cloudflare), which works by taking the Next.js build output and transforming it, so that it can run in Cloudflare Workers.
+- **Cloudflare Workers Edge Runtime**: Complete deployment on Cloudflare infrastructure
+- **AI Assistant**: Workers AI + Vectorize RAG for intelligent customer support
+- **Multi-language Support**: English, Chichewa, Tumbuka, and extensible for other Malawi languages
+- **Power Automate Integration**: Seamless lead management with Microsoft Power Platform
+- **Holo-School Initiative**: Dedicated page for holographic education project
+- **Modern UI**: Built with shadcn/ui, Tailwind CSS, and Framer Motion
+- **Type-Safe**: Full TypeScript implementation with Zod validation
 
-<!-- dash-content-end -->
+## 🏗️ Architecture
 
-Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
+### Tech Stack
+- **Framework**: Next.js 15 (App Router, React Server Components)
+- **Runtime**: Cloudflare Workers (Edge-compatible)
+- **Styling**: Tailwind CSS + shadcn/ui components
+- **Animation**: Framer Motion
+- **Internationalization**: next-intl with middleware-based routing
+- **Forms**: React Hook Form + Zod validation
+- **AI**: Cloudflare Workers AI + Vectorize for RAG
+
+### Cloudflare Services
+- **Workers**: Application runtime
+- **KV**: Settings and rate limiting storage
+- **Vectorize**: Vector database for AI assistant knowledge base
+- **R2**: Asset storage (optional)
+- **AI**: LLM inference and embeddings
+
+## 🛠️ Setup & Development
+
+### Prerequisites
+- Node.js 18+ and pnpm
+- Cloudflare account with Workers/AI access
+- Wrangler CLI installed
+
+### 1. Environment Setup
 
 ```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/next-starter-template
-```
-
-A live public deployment of this template is available at [https://next-starter-template.templates.workers.dev](https://next-starter-template.templates.workers.dev)
-
-## Getting Started
-
-First, run:
-
-```bash
-npm install
-# or
-yarn install
-# or
+# Install dependencies
 pnpm install
-# or
-bun install
+
+# Copy environment template
+cp .env.example .env.local
 ```
 
-Then run the development server (using the package manager of your choice):
+### 2. Configure Environment Variables
+
+```env
+# Site Configuration
+NEXT_PUBLIC_SITE_URL=https://korena.solutions
+NEXT_PUBLIC_SITE_NAME="Korena Digital Solutions"
+
+# Power Automate Integration
+POWER_AUTOMATE_WEBHOOK_URL=https://prod-XX.eastus.logic.azure.com:443/workflows/XXXXXX/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=XXXXXX
+
+# AI Features
+NEXT_PUBLIC_AI_ASSISTANT_ENABLED=true
+AI_MODEL=@cf/meta/llama-3.1-8b-instruct
+EMBEDDINGS_MODEL=@cf/baai/bge-base-en-v1.5
+```
+
+### 3. Cloudflare Setup
+
+#### Create Required Resources
+```bash
+# Create KV namespace
+wrangler kv:namespace create "KORENA_SETTINGS"
+wrangler kv:namespace create "KORENA_SETTINGS" --preview
+
+# Create Vectorize index
+wrangler vectorize create korena-docs-index --dimensions=768 --metric=cosine
+
+# Create R2 bucket (optional)
+wrangler r2 bucket create korena-assets
+```
+
+#### Update wrangler.toml
+Replace the placeholder IDs in `wrangler.toml` with your actual resource IDs.
+
+### 4. Local Development
 
 ```bash
-npm run dev
+# Start development server with Wrangler
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Deploy to Cloudflare
+pnpm deploy
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌍 Internationalization (i18n)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Supported Languages
+- **English (en)**: Primary language
+- **Chichewa/Nyanja (ny)**: Comprehensive translations
+- **Tumbuka (tum)**: Comprehensive translations
+- **Yao (yao)**: Scaffold ready for expansion
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Translation Workflow
+1. Machine translation baseline via Workers AI
+2. Expert linguist review (recommended)
+3. Glossary enforcement for technical terms
+4. Quality verification via Translation Console
 
-## Deploying To Production
+## 🔗 Power Automate Integration
 
-| Command                           | Action                                       |
-| :-------------------------------- | :------------------------------------------- |
-| `npm run build`                   | Build your production site                   |
-| `npm run preview`                 | Preview your build locally, before deploying |
-| `npm run build && npm run deploy` | Deploy your production site to Cloudflare    |
-| `npm wrangler tail`               | View real-time logs for all Workers          |
+### Setup Instructions
 
-## Learn More
+1. **Create Power Automate Flow**:
+   - Trigger: "When an HTTP request is received"
+   - Parse lead data and create Dataverse record
+   - Send email notifications
+   - Configure error handling
 
-To learn more about Next.js, take a look at the following resources:
+2. **Dataverse Schema**: Lead entity with fields for name, email, organization, interest, etc.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤖 AI Assistant
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The AI assistant uses Vectorize for RAG with Workers AI models:
+- **Knowledge Base**: Website content indexed as vectors
+- **Embeddings**: Generated using Workers AI
+- **Inference**: Llama 3.1 8B model for responses
+- **Rate Limiting**: KV-based token bucket
+
+### Content Ingestion
+```bash
+pnpm run ingest
+```
+
+## 🎯 Holo-School Initiative
+
+Comprehensive page showcasing the holographic education project:
+- Azure Media Services integration
+- MACRA partnership details
+- Pilot program information
+- Technical architecture diagrams
+- Downloadable prospectus
+
+## 🚀 Deployment
+
+### Cloudflare Pages (Recommended)
+1. Connect GitHub repository
+2. Configure build settings and environment variables
+3. Set up custom domain (korena.mw)
+4. Configure KV, Vectorize, and AI bindings
+
+### Build Commands
+```bash
+# Development
+pnpm dev
+
+# Production build
+pnpm build
+
+# Preview locally
+pnpm preview
+
+# Deploy to Cloudflare
+pnpm deploy
+
+# Type checking
+pnpm typecheck
+```
+
+## 🧪 Testing
+
+```bash
+# Unit tests
+pnpm test
+
+# End-to-end tests
+pnpm test:e2e
+
+# Linting
+pnpm lint
+```
+
+## 📊 Performance Targets
+
+- **Lighthouse Score**: ≥ 90 across all metrics
+- **Core Web Vitals**: Optimized for excellent user experience
+- **Edge Deployment**: Global CDN with minimal latency
+
+## 🔧 Key Configuration Files
+
+- `wrangler.toml`: Cloudflare Workers configuration
+- `next.config.ts`: Next.js and i18n setup
+- `middleware.ts`: Locale routing
+- `i18n/`: Translation files and glossary
+- `src/lib/types.ts`: TypeScript definitions
+
+## 🤝 Contributing
+
+1. Create feature branches from `main`
+2. Follow TypeScript + ESLint standards
+3. Update translations for user-facing changes
+4. Include tests for new features
+5. Update documentation as needed
+
+## 📝 License
+
+Proprietary - Korena Digital Solutions
+
+## 🆘 Support
+
+- **Technical**: Check Cloudflare binding configuration
+- **Business**: info@korena.mw | +265 1 123 4567
+- **Emergency**: +265 999 EMERGENCY
+
+---
+
+🇲🇼 **Proudly built in Malawi** - Empowering digital transformation across Africa

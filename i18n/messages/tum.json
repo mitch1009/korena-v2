@@ -1,0 +1,190 @@
+{
+  "common": {
+    "loading": "Chikujimba...",
+    "error": "Chachilema",
+    "success": "Chabwino!",
+    "cancel": "Chaleka",
+    "continue": "Pitirizga",
+    "submit": "Thumizga",
+    "close": "Chindzeka",
+    "save": "Sungha",
+    "edit": "Sinthako",
+    "delete": "Pukutako",
+    "view": "Wonesko",
+    "download": "Tsitsako",
+    "upload": "Kwerezga",
+    "search": "Soweska",
+    "filter": "Sewenga",
+    "sort": "Gongolozga",
+    "current": "Chino chakuthi",
+    "next": "Chimunyake",
+    "previous": "Chakubwelera",
+    "home": "Kunyumba",
+    "back": "Kubwelera"
+  },
+  "navigation": {
+    "menu": "Menyu",
+    "services": "Yilumikiro",
+    "solutions": "Yiwonereso",
+    "industries": "Yikolora",
+    "holo-school": "Holo-School",
+    "case-studies": "Yitsanzo",
+    "tenders": "Yi Tender",
+    "about": "Za Ife",
+    "contact": "Lumirizgana",
+    "get-started": "Yambirapo",
+    "cloud-modern-work": "Cloud na Ntchito ya Masiku Ghano",
+    "data-ai": "Data na AI",
+    "security-compliance": "Chitetezo na Kusatira Malamulo",
+    "power-platform": "Power Platform",
+    "government-portals": "Yi Portal ya Boma",
+    "managed-services": "Yilumikiro Yoyang'aniridwa",
+    "govcloud-starter": "GovCloud Choyambira",
+    "smart-data-platform": "Nsanja ya Data Yanzeru",
+    "secure-identity": "Chizindikiro Chotetezeka",
+    "gov-payments": "Yilipo ya Boma",
+    "government": "Boma",
+    "healthcare": "Ya Chipatala",
+    "education": "Yiphunziro",
+    "finance": "Ya Ndalama",
+    "fintech": "Tekinoloje ya Ndalama"
+  },
+  "hero": {
+    "title": "Kusintha kwa Digital ku Malawi wa Masiku Ghano",
+    "subtitle": "Kupatsa mphamvu boma, mabizinesi, na anthu ammudzi na mayankho ya cloud yapamwamba, chidziwitso cha AI, na yilumikiro ya digital yatsopano.",
+    "cta-primary": "Wonesken Mayankho Ghathu",
+    "cta-secondary": "Wonesken Yitsanzo",
+    "stats": {
+      "clients": "Yokasitomala ya Boma",
+      "projects": "Yipulojekiti Yoperezeka",
+      "uptime": "Nthawi ya Ntchito",
+      "coverage": "Kufalikira kwa Dziko"
+    }
+  },
+  "services": {
+    "title": "Yilumikiro Yathu",
+    "subtitle": "Mayankho athunthu ya digital yopangidwa kwa zosowa za Malawi",
+    "cloud-modern-work": {
+      "title": "Cloud na Ntchito ya Masiku Ghano",
+      "description": "Kusamutsa ku Azure, kukhazikitsa Microsoft 365, na mayankho ya malo ogwira ntchito yamakono",
+      "features": ["Kusamutsa ku Azure Cloud", "Kukhazikitsa Microsoft 365", "Teams na Kugwirizgana", "Mayankho ya Ntchito Yosakanikirana"]
+    },
+    "data-ai": {
+      "title": "Data na AI", 
+      "description": "Kusanthula kwa Power BI, ulamuliro wa data, na chidziwitso cha AI",
+      "features": ["Yi Dashboard ya Power BI", "Ulamuliro wa Data", "Kusanthula kwa AI", "Chidziwitso cha Kulosera"]
+    },
+    "security-compliance": {
+      "title": "Chitetezo na Kusatira Malamulo",
+      "description": "Microsoft Defender, malamulo osatira, na chitetezo cha cyber",
+      "features": ["Microsoft Defender", "Malamulo Osatira", "Kufufuza Chitetezo", "Kuyankha Mavuto"]
+    },
+    "power-platform": {
+      "title": "Power Platform",
+      "description": "Yipulogalamu yosavuta kupanga, makina, na mayankho yapadera",
+      "features": ["Kupanga Power Apps", "Power Automate", "Copilot Studio", "Yolumikizira Yapadera"]
+    },
+    "government-portals": {
+      "title": "Yi Portal ya Boma",
+      "description": "Yilumikiro ya nzika, nsanja ya e-boma, na kusintha kwa digital",
+      "features": ["Yi Portal ya Nzika", "Yilumikiro ya E-Government", "Chizindikiro cha Digital", "Kuphatikiza Yilumikiro"]
+    },
+    "managed-services": {
+      "title": "Yilumikiro Yoyang'aniridwa",
+      "description": "Chithandizo cha 24/7, kuyang'anira, na zida za cloud zoyang'aniridwa",
+      "features": ["Chithandizo cha 24/7", "Kuyang'anira Cloud", "Kusungira na Kubwezgera", "Kupangitsa kuti Zizigwira Ntchito Bwino"]
+    }
+  },
+  "contact": {
+    "title": "Lumirizganani nafe",
+    "subtitle": "Mwakonzeka kusintha mapangidwe ghanu gha digital? Tiyeni tikambirane zofunikira zanu.",
+    "form": {
+      "name": "Dzina Lonse",
+      "name-placeholder": "Lembani dzina lanu lonse",
+      "email": "Adilesi ya Email",
+      "email-placeholder": "Lembani adilesi yanu ya email",
+      "phone": "Nambala ya Foni", 
+      "phone-placeholder": "Lembani nambala yanu ya foni (zosakhala zachikakamiza)",
+      "organization": "Bungwe",
+      "organization-placeholder": "Lembani dzina la bungwe lanu (zosakhala zachikakamiza)",
+      "interest": "Gawo Lomwe Mukufuna",
+      "interest-placeholder": "Sankhani gawo lomwe mukufuna",
+      "message": "Chingerezi",
+      "message-placeholder": "Tiwuzeni zomwe mukufuna ndipo mmene tingakuthandizirentu",
+      "consent": "Ndikuvomera malamulo ya chinsinsi na malamulo yogwirira ntchito",
+      "submit": "Thumizga Chingerezi",
+      "success": "Zikomo! Tidzakuyankha m'masana 24.",
+      "error": "Pepani, panali chachilema pothumiza chingerezi chanu. Chonde yesaninso."
+    }
+  },
+  "footer": {
+    "description": "Mgwirizano wamkulu wa kusintha kwa digital ku Malawi, kupereka mayankho ya cloud yatsopano na yilumikiro ya AI kwa yokasitomala ya boma na mabizinesi.",
+    "address": "Lilongwe, Malawi",
+    "company": "Kampani",
+    "legal": "Yamalamulo",
+    "trusted-partners": "Ogwirizana Wodalirika",
+    "partners-description": "Ogwirizana ovomerezeka opereka mayankho yapamwamba kwambiri",
+    "rights-reserved": "Ufulu wonse wasunga",
+    "made-in-malawi": "Wopangidwa mu Malawi mwanyada",
+    "privacy-policy": "Ndondomeko ya Chinsinsi",
+    "terms-of-service": "Malamulo ya Yilumikiro",
+    "data-protection": "Chitetezo cha Data",
+    "cookies": "Ndondomeko ya Cookies"
+  },
+  "holo-school": {
+    "title": "Pulojekiti ya Holo-School",
+    "subtitle": "Njira yatsopano ya kuperekedwa yiphunziro ya holographic ku miyendo ya Malawi",
+    "hero": {
+      "title": "Kubweretsa Yiphunziro Yapamwamba ku Mudzi Uliwonse",
+      "description": "Kugwiritsa ntchito tekinoloje ya holographic, ntchito za cloud za Azure, na zida za kuwulutsa za MACRA kuti yaperekeza zokumana nazo za yiphunziro ku madera yakutali ya Malawi."
+    },
+    "sections": {
+      "why": {
+        "title": "Chifukwa chiyani Holo-School?",
+        "points": [
+          "Kuthana na kusalingana kwa yiphunziro m'madera yakumidzi",
+          "Kupereka mwayi wopeza yiphunzitsi yokwanira kudzera pa tekinoloje",
+          "Njira yolimba ya kuperekedwa kudzera pa tekinoloje ya RF",
+          "Yankho lomwe lingafalitsidwe ku dziko lonse"
+        ]
+      },
+      "how": {
+        "title": "Mmene Zimagwirira Ntchito",
+        "steps": [
+          "Kupanga zinthu mu studio ya Azure Media Services",
+          "Kuwulutsa pa nthawi yeniyeni kudzera pa Microsoft Teams", 
+          "Kuwulutsa kwa MACRA RF ku yi screen ya hologram yammudzi",
+          "Mawu ogwirizana kudzera pa yi headset yopanda zingwe",
+          "Kulumikizana kwa IP ngati kulipo"
+        ]
+      },
+      "pilot": {
+        "title": "Pulogalamu ya Yiyeso",
+        "description": "Pulogalamu ya yiyeso pamalo yatatu kuonetsa kuti zidzatheke ndikuyeza zotsatira",
+        "sites": "Malo ya Yiyeso",
+        "kpis": "Yiphunzitso Yazikulu za Kuchita Bwino",
+        "timeline": "Nthawi ya Kukhazikitsa"
+      },
+      "tech": {
+        "title": "Zida za Tekinoloje",
+        "azure": "Azure Media Services pakuperekedwa kwazinthu na CDN",
+        "teams": "Microsoft Teams pakumana na anthu pa nthawi yeniyeni",
+        "macra": "Zida za MACRA RF pakuwulutsa",
+        "apps": "Power Apps pakuonera kopezeka na ndemanga"
+      }
+    },
+    "cta": {
+      "title": "Pemphan Kalata ya Yiyeso",
+      "description": "Pezani zambiri za kukhazikitsa pulogalamu ya yiyeso ya Holo-School",
+      "button": "Tsitsani Kalata"
+    }
+  },
+  "assistant": {
+    "title": "Wothandiza wa AI",
+    "placeholder": "Funitsani chilichonse cha yilumikiro yathu, mayankho, kapena mmene tingakuthandizirentu...",
+    "send": "Thumizga",
+    "typing": "AI chikujemba...",
+    "error": "Pepani, ndili na chachilema tsopano. Chonde yesaninso.",
+    "welcome": "Moni! Ndine wothandiza wanu wa Korena Digital Solutions. Kodi ndingathandize bwanji lero?"
+  }
+}
